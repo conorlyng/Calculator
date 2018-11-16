@@ -10,33 +10,33 @@
 	<div class="button">
 
 	  <tr>
-	    <td><button onclick="displayNumber('123t2yu', 'fhhajsg')">Del</button></td>
-	    <td colspan="3"><input readonly="0"><onclick="numberclick"</td>
+	    <td><button>Del</button></td>
+	    <td colspan="3"><input id="screenInput" type="text" value="" readonly></input></td>
 	  </tr>
 	  
 	  <tr>
-	    <td><button onclick="numberclick('123t2yu', 'fhhajsg')">7</button></td>
-	    <td><button>8</button></td>
-	    <td><button>9</button></td>
-	    <td><button>+</button></td>
+	    <td><button onclick="addNumberToInput('7')">7</button></td>
+	    <td><button onclick="addNumberToInput('8')">8</button></td>
+	    <td><button onclick="addNumberToInput('9')">9</button></td>
+	    <td><button onclick="addNumberToInput('+')">+</button></td>
+	  </tr>	  
+	  <tr>
+	    <td><button onclick="addNumberToInput('4')">4</button></td>
+	    <td><button onclick="addNumberToInput('5')">5</button></td>
+	    <td><button onclick="addNumberToInput('6')">6</button></td>
+	    <td><button onclick="addNumberToInput('-')">-</button></td>
 	  </tr>
 	  <tr>
-	    <td><button>4</button></td>
-	    <td><button>5</button></td>
-	    <td><button>6</button></td>
-	    <td><button>-</button></td>
+	  	<td><button onclick="addNumberToInput('1')">1</button></td>
+	  	<td><button onclick="addNumberToInput('2')">2</button></td>
+	  	<td><button onclick="addNumberToInput('3')">3</button></td>
+	  	<td><button onclick="addNumberToInput('/')">/</button></td>
 	  </tr>
 	  <tr>
-	  	<td><button>1</button></td>
-	  	<td><button>2</button></td>
-	  	<td><button>3</button></td>
-	  	<td><button>/</button></td>
-	  </tr>
-	  <tr>
-	  	<td><button>0</button></td>
-	  	<td><button>.</button></td>
-	  	<td><button>=</button></td>
-	  	<td><button>x</button></td>
+	  	<td><button onclick="addNumberToInput('0')">0</button></td>
+	  	<td><button onclick="addNumberToInput('.')">.</button></td>
+	  	<td><button onclick="addNumberToInput('=')">=</button></td>
+	  	<td><button onclick="addNumberToInput('x')">x</button></td>
 	  </tr>
   </div>
 </table> 

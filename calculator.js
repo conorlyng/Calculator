@@ -1,4 +1,5 @@
-function displayNumber(a, b) {
-	console.log("Conor",a, b)
-}
-function numberclick(c, d)
+function addNumberToInput(number) {
+var inputScreen = document.getElementById("screenInput");
+console.log(number);
+inputScreen.value = number;
+} 
